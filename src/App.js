@@ -25,82 +25,82 @@ function App() {
     if(gridArray[0] === "X" && gridArray[1] === "X" && gridArray[2] === "X"){
       setGameEnd(true);
       winBool = true;
-      toastr.success("X won this round! make sure to click reset for round 2!");
+      toastr.success("X won this round! make sure to click reset for the next round!");
       return gridArray[0];
     } if(gridArray[0] === "O" && gridArray[1] === "O" && gridArray[2] === "O"){
       setGameEnd(true);
       winBool = true;
-      toastr.success("O won this round! make sure to click reset for round 2!");
+      toastr.success("O won this round! make sure to click reset for the next round!");
       return gridArray[0];
     } if(gridArray[3] === "X" && gridArray[4] === "X" && gridArray[5] === "X"){
       setGameEnd(true);
       winBool = true;
-      toastr.success("X won this round! make sure to click reset for round 2!");
+      toastr.success("X won this round! make sure to click reset for the next round!");
       return gridArray[3];
     } if(gridArray[3] === "O" && gridArray[4] === "O" && gridArray[5] === "O"){
       setGameEnd(true);
       winBool = true;
-      toastr.success("O won this round! make sure to click reset for round 2!");
+      toastr.success("O won this round! make sure to click reset for the next round!");
       return gridArray[3];
     } if(gridArray[6] === "X" && gridArray[7] === "X" && gridArray[8] === "X"){
       setGameEnd(true);
       winBool = true;
-      toastr.success("X won this round! make sure to click reset for round 2!");
+      toastr.success("X won this round! make sure to click reset for the next round!");
       return gridArray[6];
     } if(gridArray[6] === "O" && gridArray[7] === "O" && gridArray[8] === "O"){
       setGameEnd(true);
       winBool = true;
-      toastr.success("O won this round! make sure to click reset for round 2!");
+      toastr.success("O won this round! make sure to click reset for the next round!");
       return gridArray[6];
     } if(gridArray[0] === "X" && gridArray[3] === "X" && gridArray[6] === "X"){
       setGameEnd(true);
       winBool = true;
-      toastr.success("X won this round! make sure to click reset for round 2!");
+      toastr.success("X won this round! make sure to click reset for the next round!");
       return gridArray[0];
     } if(gridArray[0] === "O" && gridArray[3] === "O" && gridArray[6] === "O"){
       setGameEnd(true);
       winBool = true;
-      toastr.success("O won this round! make sure to click reset for round 2!");
+      toastr.success("O won this round! make sure to click reset for the next round!");
       return gridArray[0];
     } if(gridArray[1] === "X" && gridArray[4] === "X" && gridArray[7] === "X"){
       setGameEnd(true);
       winBool = true;
-      toastr.success("X won this round! make sure to click reset for round 2!");
+      toastr.success("X won this round! make sure to click reset for the next round!");
       return gridArray[1];
     } if(gridArray[1] === "O" && gridArray[4] === "O" && gridArray[7] === "O"){
       setGameEnd(true);
       winBool = true;
-      toastr.success("O won this round! make sure to click reset for round 2!");
+      toastr.success("O won this round! make sure to click reset for the next round!");
       return gridArray[1];
     } if(gridArray[2] === "X" && gridArray[5] === "X" && gridArray[8] === "X"){
       setGameEnd(true);
       winBool = true;
-      toastr.success("X won this round! make sure to click reset for round 2!");
+      toastr.success("X won this round! make sure to click reset for the next round!");
       return gridArray[2];
     } if(gridArray[2] === "O" && gridArray[5] === "O" && gridArray[8] === "O"){
       setGameEnd(true);
       winBool = true;
-      toastr.success("O won this round! make sure to click reset for round 2!");
+      toastr.success("O won this round! make sure to click reset for the next round!");
       return gridArray[2];
     } if(gridArray[0] === "X" && gridArray[4] === "X" && gridArray[8] === "X"){
       setGameEnd(true);
       winBool = true;
-      toastr.success("X won this round! make sure to click reset for round 2!");
+      toastr.success("X won this round! make sure to click reset for the next round!");
       return gridArray[0];
     } if(gridArray[0] === "O" && gridArray[4] === "O" && gridArray[8] === "O"){
       setGameEnd(true);
       winBool = true;
-      toastr.success("O won this round! make sure to click reset for round 2!");
+      toastr.success("O won this round! make sure to click reset for the next round!");
       return gridArray[0];
     } if(gridArray[2] === "X" && gridArray[4] === "X" && gridArray[6] === "X"){
       setGameEnd(true);
       winBool = true;
-      toastr.success("X won this round! make sure to click reset for round 2!");
+      toastr.success("X won this round! make sure to click reset for the next round!");
       return gridArray[2];
     } if(gridArray[2] === "O" && gridArray[4] === "O" && gridArray[6] === "O"){
       setGameEnd(true);
       winBool = true;
-      toastr.success("O won this round! make sure to click reset for round 2!");
+      toastr.success("O won this round! make sure to click reset for the next round!");
       return gridArray[2];
     }
   }
