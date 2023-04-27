@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "bit";
+    src: url("../fonts/Pixeboy-z8XGD.ttf");
+}
+  
+
+.cell{
+    background-color:aqua;
+    border:none;
+    border-radius: 6px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 150px;
+    font-family: 'bit';
+    line-height: 50px;
+    box-shadow: 0 0 10px greenyellow;
+    margin: 10px;
+}
+
+.cellX{
+    background-color:aqua;
+    border:none;
+    color:rgba(51, 255, 0, 0.247);
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    border-radius: 6px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 150px;
+    font-family: 'bit';
+    line-height: 50px;
+    box-shadow: 0 0 10px greenyellow;
+    margin: 10px;
+}
+
+.cellO{
+    background-color:aqua;
+    border:none;
+    color:rgba(0, 195, 255, 0.562);
+    text-shadow: 0 0 3px #0044ffa2, 0 0 5px #0000FF;
+    border-radius: 6px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 150px;
+    font-family: 'bit';
+    line-height: 50px;
+    box-shadow: 0 0 10px greenyellow;
+    margin: 10px;
+}
+
+.cell:hover {
+    box-shadow: 0 0 60px greenyellow;
+}
+
+.x {
+    color: green;
+}
+
+.o{
+    color:black;
+}

@@ -1,0 +1,33 @@
+button{
+    font-size: 50px;
+    font-family: 'bit';
+    border: 6px;
+}
+
+.buttons{
+    margin-top: 40px;
+    text-align: center;
+}
+
+button:hover{
+    box-shadow: 0 0 60px greenyellow;
+}
+
+h1{
+    font-family: 'bit';
+    text-align: center;
+    font-size: 70px;
+}
+
+p{
+    font-family: 'bit';
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    color:rgb(1, 95, 22)
+}
+
+.description{
+    box-shadow: 0 0 8px blue;
+    background-color: rgb(6, 25, 110);
+}

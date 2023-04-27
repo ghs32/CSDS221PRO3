@@ -1,0 +1,42 @@
+.scores {
+    display: grid;
+    grid-template-columns: repeat(2, 130px);
+    justify-content: center;
+    font-size: 30px;
+    margin: 30px auto;
+}
+
+.scoreX{
+    color:rgba(255, 0, 0, 0.986);
+    box-shadow: 0 0 8px brown;
+    width:90px;
+    border-radius: 10px;
+    font-size: 50px;
+    font-family: 'bit';
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+}
+
+.shadowX{
+    box-shadow: 0 0 60px rgb(255, 0, 43);
+}
+
+.scoreO{
+    color:rgb(0, 4, 255);
+    box-shadow: 0 0 8px blue;
+    width: 90px;
+    border-radius: 10px;
+    font-family: 'bit';
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center; 
+    background-color: white;
+}
+
+.shadowO{
+    box-shadow: 0 0 60px rgb(0, 47, 255);
+}
+
+
+
